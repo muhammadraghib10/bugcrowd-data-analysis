@@ -1,0 +1,17 @@
+################################################################################
+Step 5: Planning further steps
+The program information texts loaded in step 2 contain a lot of other interesting 
+information in addition to the monetary rewards. However, these differ greatly across
+ the programs and rarely follow a uniform pattern in terms of content. How would you go
+  about structuring the texts automatically and converting thematically similar blocks 
+  (e.g. "Out of Scope" lists or "Exclusion" lists) into a uniform format?
+################################################################################
+Answer:
+
+"In scope" and "out of scope" are mostly present in the form of lists i.e <li> html elements. We
+ can them using thier tag or title with beautiful soup and place them in the form of lists or
+ dictionary format in the output files.
+
+
+
+
